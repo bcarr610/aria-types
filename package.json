@@ -1,13 +1,17 @@
 {
   "name": "aria-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Type definitions for ARIA projects",
-  "keywords": ["aria"],
+  "keywords": [
+    "aria"
+  ],
   "author": "Brandon Carr",
   "license": "ISC",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
