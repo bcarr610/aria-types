@@ -22,7 +22,9 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags",
     "publish": "npm publish",
-    "bump": "npm version patch"
+    "bump-patch": "npm version patch",
+    "bump-minor": "npm version minor",
+    "bump-major": "npm version major"
   },
   "devDependencies": {
     "prettier": "^2.8.2",
