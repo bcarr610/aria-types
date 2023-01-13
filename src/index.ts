@@ -1,7 +1,7 @@
 export interface DetectedObject {
-  bbox: [number, number, number, number];
-  class: string;
-  score: number;
+  bbox: [number, number, number, number]
+  class: string
+  score: number
 }
 
 export type CameraFrame = {
@@ -15,7 +15,7 @@ export type CameraFrame = {
     host: string
     ip: string
     friendly_name: string
-  },
+  }
   predictions: DetectedObject[]
 }
 
