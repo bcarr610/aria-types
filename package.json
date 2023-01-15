@@ -1,6 +1,6 @@
 {
   "name": "aria-types",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "Type definitions for ARIA projects",
   "keywords": [
     "aria"
