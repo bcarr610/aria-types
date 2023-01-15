@@ -1,7 +1,7 @@
 {
-  "name": "aria-types",
+  "name": "aria-lib",
   "version": "1.0.0",
-  "description": "Type definitions for ARIA projects",
+  "description": "Official ARIA library",
   "keywords": [
     "aria"
   ],
