@@ -13,10 +13,10 @@ export type CameraFrame = {
     height: number
     fps: number
     host: string
-    ip: string
+    ip?: string
     friendly_name: string
   }
-  predictions: DetectedObject[]
+  predictions?: DetectedObject[]
 }
 
 export type CameraConfig = {
